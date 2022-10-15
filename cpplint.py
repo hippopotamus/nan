@@ -6425,9 +6425,9 @@ def PrintUsage(message):
     sys.exit(0)
 
 def PrintVersion():
-  sys.stdout.write('Cpplint fork (https://github.com/cpplint/cpplint)\n')
-  sys.stdout.write('cpplint ' + __VERSION__ + '\n')
-  sys.stdout.write('Python ' + sys.version + '\n')
+  # sys.stdout.write('Cpplint fork (https://github.com/cpplint/cpplint)\n')
+  # sys.stdout.write('cpplint ' + __VERSION__ + '\n')
+  # sys.stdout.write('Python ' + sys.version + '\n')
   sys.exit(0)
 
 def PrintCategories():
